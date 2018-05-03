@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090276B52099CB370003A008 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090276B42099CB370003A008 /* GameViewController.swift */; };
+		090276BD2099F09A0003A008 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0972657C2040E1F000CCC951 /* SF-Pro-Display-HeavyItalic.otf */; };
+		090276BE2099F0E90003A008 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 097265902040E1F400CCC951 /* SF-Pro-Display-MediumItalic.otf */; };
+		090276C22099F9A50003A008 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090276C12099F9A50003A008 /* BlackViewController.swift */; };
+		090276C8209A0A830003A008 /* holding12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 090276C7209A0A830003A008 /* holding12.mp3 */; };
+		090276CA209A0A880003A008 /* holding22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 090276C9209A0A880003A008 /* holding22.mp3 */; };
+		097265972040E34000CCC951 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0972658C2040E1F300CCC951 /* SF-Pro-Text-Semibold.otf */; };
+		097265982040E4CF00CCC951 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 097265842040E1F100CCC951 /* SF-Pro-Text-RegularItalic.otf */; };
+		099F7BE920409EE0002650CB /* allstar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 099F7BE820409EE0002650CB /* allstar.mp3 */; };
+		09BD1CDC204071B9008C0DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BD1CDB204071B9008C0DF3 /* AppDelegate.swift */; };
+		09BD1CDE204071B9008C0DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BD1CDD204071B9008C0DF3 /* ViewController.swift */; };
+		09BD1CE1204071B9008C0DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BD1CDF204071B9008C0DF3 /* Main.storyboard */; };
+		09BD1CE3204071BA008C0DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BD1CE2204071BA008C0DF3 /* Assets.xcassets */; };
+		09BD1CE6204071BA008C0DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BD1CE4204071BA008C0DF3 /* LaunchScreen.storyboard */; };
+		09BD1CF1204071BA008C0DF3 /* ShreksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BD1CF0204071BA008C0DF3 /* ShreksTests.swift */; };
+		09BD1CFC204071BA008C0DF3 /* ShreksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BD1CFB204071BA008C0DF3 /* ShreksUITests.swift */; };
+		09BD1D0A20407625008C0DF3 /* shrek.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09BD1D0920407269008C0DF3 /* shrek.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09BD1CED204071BA008C0DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09BD1CD0204071B9008C0DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BD1CD7204071B9008C0DF3;
+			remoteInfo = Shreks;
+		};
+		09BD1CF8204071BA008C0DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09BD1CD0204071B9008C0DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BD1CD7204071B9008C0DF3;
+			remoteInfo = Shreks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090276B42099CB370003A008 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		090276C12099F9A50003A008 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
+		090276C7209A0A830003A008 /* holding12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = holding12.mp3; sourceTree = "<group>"; };
+		090276C9209A0A880003A008 /* holding22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = holding22.mp3; sourceTree = "<group>"; };
+		097265782040E1EF00CCC951 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		097265792040E1EF00CCC951 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		0972657A2040E1EF00CCC951 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		0972657B2040E1F000CCC951 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		0972657C2040E1F000CCC951 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		0972657E2040E1F000CCC951 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		0972657F2040E1F000CCC951 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		097265802040E1F100CCC951 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		097265812040E1F100CCC951 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		097265822040E1F100CCC951 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		097265832040E1F100CCC951 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		097265842040E1F100CCC951 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		097265852040E1F200CCC951 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		097265862040E1F200CCC951 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		097265872040E1F200CCC951 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		097265882040E1F200CCC951 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		097265892040E1F300CCC951 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		0972658A2040E1F300CCC951 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		0972658B2040E1F300CCC951 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		0972658C2040E1F300CCC951 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		0972658D2040E1F300CCC951 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		0972658E2040E1F400CCC951 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		0972658F2040E1F400CCC951 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		097265902040E1F400CCC951 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		097265912040E1F400CCC951 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		097265922040E1F500CCC951 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		097265932040E1F500CCC951 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		097265942040E1F500CCC951 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		097265952040E1F500CCC951 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		097265962040E1F600CCC951 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		099F7BE820409EE0002650CB /* allstar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allstar.mp3; sourceTree = "<group>"; };
+		09BD1CD8204071B9008C0DF3 /* Shreks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shreks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BD1CDB204071B9008C0DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09BD1CDD204071B9008C0DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09BD1CE0204071B9008C0DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09BD1CE2204071BA008C0DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09BD1CE5204071BA008C0DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09BD1CE7204071BA008C0DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BD1CEC204071BA008C0DF3 /* ShreksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShreksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BD1CF0204071BA008C0DF3 /* ShreksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShreksTests.swift; sourceTree = "<group>"; };
+		09BD1CF2204071BA008C0DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BD1CF7204071BA008C0DF3 /* ShreksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShreksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BD1CFB204071BA008C0DF3 /* ShreksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShreksUITests.swift; sourceTree = "<group>"; };
+		09BD1CFD204071BA008C0DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BD1D0920407269008C0DF3 /* shrek.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shrek.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BD1CD5204071B9008C0DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CE9204071BA008C0DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CF4204071BA008C0DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090276B62099CD010003A008 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				097265832040E1F100CCC951 /* SF-Pro-Text-Medium.otf */,
+				097265912040E1F400CCC951 /* SF-Pro-Text-MediumItalic.otf */,
+				097265942040E1F500CCC951 /* SF-Pro-Text-Regular.otf */,
+				097265842040E1F100CCC951 /* SF-Pro-Text-RegularItalic.otf */,
+				0972658C2040E1F300CCC951 /* SF-Pro-Text-Semibold.otf */,
+				097265932040E1F500CCC951 /* SF-Pro-Text-SemiboldItalic.otf */,
+				09BD1D0920407269008C0DF3 /* shrek.ttf */,
+				0972657A2040E1EF00CCC951 /* SF-Pro-Display-Black.otf */,
+				0972658D2040E1F300CCC951 /* SF-Pro-Display-BlackItalic.otf */,
+				097265952040E1F500CCC951 /* SF-Pro-Display-Bold.otf */,
+				0972658E2040E1F400CCC951 /* SF-Pro-Display-BoldItalic.otf */,
+				097265882040E1F200CCC951 /* SF-Pro-Display-Heavy.otf */,
+				0972657C2040E1F000CCC951 /* SF-Pro-Display-HeavyItalic.otf */,
+				0972657F2040E1F000CCC951 /* SF-Pro-Display-Light.otf */,
+				097265862040E1F200CCC951 /* SF-Pro-Display-LightItalic.otf */,
+				097265852040E1F200CCC951 /* SF-Pro-Display-Medium.otf */,
+				097265902040E1F400CCC951 /* SF-Pro-Display-MediumItalic.otf */,
+				097265922040E1F500CCC951 /* SF-Pro-Display-Regular.otf */,
+				097265802040E1F100CCC951 /* SF-Pro-Display-RegularItalic.otf */,
+				097265872040E1F200CCC951 /* SF-Pro-Display-Semibold.otf */,
+				097265892040E1F300CCC951 /* SF-Pro-Display-SemiboldItalic.otf */,
+				097265822040E1F100CCC951 /* SF-Pro-Display-Thin.otf */,
+				097265962040E1F600CCC951 /* SF-Pro-Display-ThinItalic.otf */,
+				0972658F2040E1F400CCC951 /* SF-Pro-Display-Ultralight.otf */,
+				097265782040E1EF00CCC951 /* SF-Pro-Display-UltralightItalic.otf */,
+				0972658A2040E1F300CCC951 /* SF-Pro-Text-Bold.otf */,
+				0972658B2040E1F300CCC951 /* SF-Pro-Text-BoldItalic.otf */,
+				0972657E2040E1F000CCC951 /* SF-Pro-Text-Heavy.otf */,
+				097265812040E1F100CCC951 /* SF-Pro-Text-HeavyItalic.otf */,
+				0972657B2040E1F000CCC951 /* SF-Pro-Text-Light.otf */,
+				097265792040E1EF00CCC951 /* SF-Pro-Text-LightItalic.otf */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+		09BD1CCF204071B9008C0DF3 = {
+			isa = PBXGroup;
+			children = (
+				09BD1CDA204071B9008C0DF3 /* Shreks */,
+				09BD1CEF204071BA008C0DF3 /* ShreksTests */,
+				09BD1CFA204071BA008C0DF3 /* ShreksUITests */,
+				09BD1CD9204071B9008C0DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09BD1CD9204071B9008C0DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BD1CD8204071B9008C0DF3 /* Shreks.app */,
+				09BD1CEC204071BA008C0DF3 /* ShreksTests.xctest */,
+				09BD1CF7204071BA008C0DF3 /* ShreksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BD1CDA204071B9008C0DF3 /* Shreks */ = {
+			isa = PBXGroup;
+			children = (
+				090276B62099CD010003A008 /* FONTS */,
+				09BD1CDB204071B9008C0DF3 /* AppDelegate.swift */,
+				09BD1CDD204071B9008C0DF3 /* ViewController.swift */,
+				090276B42099CB370003A008 /* GameViewController.swift */,
+				090276C12099F9A50003A008 /* BlackViewController.swift */,
+				09BD1CDF204071B9008C0DF3 /* Main.storyboard */,
+				09BD1CE2204071BA008C0DF3 /* Assets.xcassets */,
+				09BD1CE4204071BA008C0DF3 /* LaunchScreen.storyboard */,
+				09BD1CE7204071BA008C0DF3 /* Info.plist */,
+				099F7BE820409EE0002650CB /* allstar.mp3 */,
+				090276C7209A0A830003A008 /* holding12.mp3 */,
+				090276C9209A0A880003A008 /* holding22.mp3 */,
+			);
+			path = Shreks;
+			sourceTree = "<group>";
+		};
+		09BD1CEF204071BA008C0DF3 /* ShreksTests */ = {
+			isa = PBXGroup;
+			children = (
+				09BD1CF0204071BA008C0DF3 /* ShreksTests.swift */,
+				09BD1CF2204071BA008C0DF3 /* Info.plist */,
+			);
+			path = ShreksTests;
+			sourceTree = "<group>";
+		};
+		09BD1CFA204071BA008C0DF3 /* ShreksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09BD1CFB204071BA008C0DF3 /* ShreksUITests.swift */,
+				09BD1CFD204071BA008C0DF3 /* Info.plist */,
+			);
+			path = ShreksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09BD1CD7204071B9008C0DF3 /* Shreks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BD1D00204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "Shreks" */;
+			buildPhases = (
+				09BD1CD4204071B9008C0DF3 /* Sources */,
+				09BD1CD5204071B9008C0DF3 /* Frameworks */,
+				09BD1CD6204071B9008C0DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shreks;
+			productName = Shreks;
+			productReference = 09BD1CD8204071B9008C0DF3 /* Shreks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09BD1CEB204071BA008C0DF3 /* ShreksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BD1D03204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "ShreksTests" */;
+			buildPhases = (
+				09BD1CE8204071BA008C0DF3 /* Sources */,
+				09BD1CE9204071BA008C0DF3 /* Frameworks */,
+				09BD1CEA204071BA008C0DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BD1CEE204071BA008C0DF3 /* PBXTargetDependency */,
+			);
+			name = ShreksTests;
+			productName = ShreksTests;
+			productReference = 09BD1CEC204071BA008C0DF3 /* ShreksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09BD1CF6204071BA008C0DF3 /* ShreksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BD1D06204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "ShreksUITests" */;
+			buildPhases = (
+				09BD1CF3204071BA008C0DF3 /* Sources */,
+				09BD1CF4204071BA008C0DF3 /* Frameworks */,
+				09BD1CF5204071BA008C0DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BD1CF9204071BA008C0DF3 /* PBXTargetDependency */,
+			);
+			name = ShreksUITests;
+			productName = ShreksUITests;
+			productReference = 09BD1CF7204071BA008C0DF3 /* ShreksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BD1CD0204071B9008C0DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jan Smolinski";
+				TargetAttributes = {
+					09BD1CD7204071B9008C0DF3 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					09BD1CEB204071BA008C0DF3 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09BD1CD7204071B9008C0DF3;
+					};
+					09BD1CF6204071BA008C0DF3 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09BD1CD7204071B9008C0DF3;
+					};
+				};
+			};
+			buildConfigurationList = 09BD1CD3204071B9008C0DF3 /* Build configuration list for PBXProject "Shreks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09BD1CCF204071B9008C0DF3;
+			productRefGroup = 09BD1CD9204071B9008C0DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BD1CD7204071B9008C0DF3 /* Shreks */,
+				09BD1CEB204071BA008C0DF3 /* ShreksTests */,
+				09BD1CF6204071BA008C0DF3 /* ShreksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09BD1CD6204071B9008C0DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090276BE2099F0E90003A008 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				090276BD2099F09A0003A008 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				09BD1D0A20407625008C0DF3 /* shrek.ttf in Resources */,
+				090276C8209A0A830003A008 /* holding12.mp3 in Resources */,
+				097265972040E34000CCC951 /* SF-Pro-Text-Semibold.otf in Resources */,
+				097265982040E4CF00CCC951 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				09BD1CE6204071BA008C0DF3 /* LaunchScreen.storyboard in Resources */,
+				09BD1CE3204071BA008C0DF3 /* Assets.xcassets in Resources */,
+				090276CA209A0A880003A008 /* holding22.mp3 in Resources */,
+				099F7BE920409EE0002650CB /* allstar.mp3 in Resources */,
+				09BD1CE1204071B9008C0DF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CEA204071BA008C0DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CF5204071BA008C0DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BD1CD4204071B9008C0DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090276C22099F9A50003A008 /* BlackViewController.swift in Sources */,
+				09BD1CDE204071B9008C0DF3 /* ViewController.swift in Sources */,
+				090276B52099CB370003A008 /* GameViewController.swift in Sources */,
+				09BD1CDC204071B9008C0DF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CE8204071BA008C0DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BD1CF1204071BA008C0DF3 /* ShreksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BD1CF3204071BA008C0DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BD1CFC204071BA008C0DF3 /* ShreksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09BD1CEE204071BA008C0DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BD1CD7204071B9008C0DF3 /* Shreks */;
+			targetProxy = 09BD1CED204071BA008C0DF3 /* PBXContainerItemProxy */;
+		};
+		09BD1CF9204071BA008C0DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BD1CD7204071B9008C0DF3 /* Shreks */;
+			targetProxy = 09BD1CF8204071BA008C0DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09BD1CDF204071B9008C0DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BD1CE0204071B9008C0DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09BD1CE4204071BA008C0DF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BD1CE5204071BA008C0DF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09BD1CFE204071BA008C0DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09BD1CFF204071BA008C0DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09BD1D01204071BA008C0DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HYQKZ943A;
+				INFOPLIST_FILE = Shreks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.Shreks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09BD1D02204071BA008C0DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HYQKZ943A;
+				INFOPLIST_FILE = Shreks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.Shreks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09BD1D04204071BA008C0DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShreksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.ShreksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shreks.app/Shreks";
+			};
+			name = Debug;
+		};
+		09BD1D05204071BA008C0DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShreksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.ShreksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shreks.app/Shreks";
+			};
+			name = Release;
+		};
+		09BD1D07204071BA008C0DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShreksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.ShreksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shreks;
+			};
+			name = Debug;
+		};
+		09BD1D08204071BA008C0DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShreksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jassmolinski.ShreksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shreks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BD1CD3204071B9008C0DF3 /* Build configuration list for PBXProject "Shreks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BD1CFE204071BA008C0DF3 /* Debug */,
+				09BD1CFF204071BA008C0DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BD1D00204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "Shreks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BD1D01204071BA008C0DF3 /* Debug */,
+				09BD1D02204071BA008C0DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BD1D03204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "ShreksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BD1D04204071BA008C0DF3 /* Debug */,
+				09BD1D05204071BA008C0DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BD1D06204071BA008C0DF3 /* Build configuration list for PBXNativeTarget "ShreksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BD1D07204071BA008C0DF3 /* Debug */,
+				09BD1D08204071BA008C0DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09BD1CD0204071B9008C0DF3 /* Project object */;
+}
